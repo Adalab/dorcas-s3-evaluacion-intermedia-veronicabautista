@@ -11,7 +11,7 @@ class Pokemon extends Component {
           <h5>{ this.props.name }</h5>
           <h6 className="pokemon_name">{ this.props.name }</h6>
         </div>
-        <div className="pokemon_type">{ this.props.type }</div>
+        <div className="pokemon_type">{ this.props.types }</div>
       </div>
     );
   }
