@@ -18,5 +18,5 @@ const pokemon = [
 ];
 
 
-ReactDOM.render(<App pokeKanto={pokemon} />, document.getElementById('root'));
+ReactDOM.render(<App pokedex={pokemon} />, document.getElementById('root'));
 registerServiceWorker();
